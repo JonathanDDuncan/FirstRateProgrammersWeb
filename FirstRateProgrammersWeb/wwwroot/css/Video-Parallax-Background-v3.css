@@ -1,0 +1,32 @@
+.video-parallax-container video {
+  top: 50%;
+  left: 50%;
+  min-width: 100vw;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+  -webkit-transition-position: fixed;
+  position: fixed;
+  overflow: hidden;
+}
+
+.video-parallax-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.filter {
+  filter: brightness(0.5);
+}
+
+.mobile-background {
+  background: url("../img/My%20Post-58.png") center / cover no-repeat, rgb(44,85,131);
+  max-width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}
+

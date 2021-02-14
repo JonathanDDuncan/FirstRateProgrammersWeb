@@ -2,7 +2,361 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<header class="masthead">
+    <div class="container">
+        <div data-bs-hover-animate="pulse" class="intro-text">
+            <div data-bs-hover-animate="pulse" class="intro-lead-in"><span data-bs-hover-animate="pulse" id="intro" style="color: rgb(0,0,0);">Welcome To Our Studio!</span></div>
+            <div data-bs-hover-animate="pulse" class="intro-heading text-uppercase"><span data-bs-hover-animate="pulse" class="HeadingIntro">It's Nice To Meet You</span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" data-bs-hover-animate="bounce" id="introbtn" href="#services" style="background: #276497;border-style: none;">Tell me more</a>
+        </div>
+    </div>
+</header>
+<section id="YouDreamItWeBuildIt">
+    <h1 style="color: rgb(255,255,255);">You Dream It&nbsp;</h1>
+    <h1 style="color: rgb(219,187,140);margin: 1rem;margin-top: 1rem;">We Build It</h1>
+</section>
+<section id="VideoLanding">
+    <div class="mobile-background">
+        <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container">
+            <div class="row">
+                <div class="col-12 FixPosition" id="JustAHeading">
+                    <h1 class="text-center" data-aos="fade" style="color: rgb(222,214,201);">Full Stack Software Developers</h1>
+                    <p class="text-center" data-aos="fade" data-aos-delay="50" style="color: rgb(241,223,180);font-size: 2rem;">Lets Build Your Dream!</p>
+                </div>
+            </div><video id="videoIntro" class="filter" autoplay="" loop="" muted="">
+                <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4" wp-acf="[{'type':'url','name':'video','label':'Video','wrapper':{'width':30}}]" wp-attr="[{'target':'src','replace':'%1'}]">
+            </video>
+        </div>
+    </div>
+</section>
+<div class="SectionOurGoal">
+    <h1 data-aos="fade-up" class="headingGoal">Our #1 Goal&nbsp;</h1>
+    <h2 data-aos="fade" class="urHappines" style="color: rgb(77,140,239);">Is Your Happiness</h2>
+</div>
+<section class="OurStandards">
+    <div class="bg-img-Responsive">
+        <div class="wrapper-grid">
+            <div id="glass-container1" class="container">
+                <div class="banner-img"></div><img data-aos="zoom-out" class="profileimageglass" src="~/img/My%20Post-50%201-2.png">
+                <h1 data-aos="fade" class="hdStandards" style="color: rgb(241,241,241);font-family: 'Open Sans', sans-serif;text-align: center;font-size: 1.5rem;font-weight: bold;">Standard Engineering Practices</h1>
+                <p data-aos="fade" class="OurstandardsParagraph" style="/*color: rgb(255,255,255);*/">We Build World Class Technology from the Likes of Microsoft, Apple &amp; Google.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 1rem;">
+                <h2 class="text-uppercase section-heading" style="color: rgb(255,255,255);">Services</h2>
+                <h3 class="text-muted" style="margin: 3.5rem;">Our Software Engineering Services</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fa fa-shopping-cart fa-stack-1x fa-inverse" data-bs-hover-animate="swing" style="background: #2b5583;/*border-radius: 10rem;*/border-radius: 2rem;"></i></span>
+                <h4 class="section-heading" style="color: rgb(255,255,255);">E-Commerce</h4>
+                <p class="text-muted" style="padding: 1rem;">We Build World Class Innovative Technology at Affordable Prices</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fa fa-laptop fa-stack-1x fa-inverse" data-bs-hover-animate="bounce" style="background-color: rgb(43,85,131);"></i></span>
+                <h4 class="section-heading" style="color: rgb(255,255,255);">Responsive Design</h4>
+                <p class="text-muted" style="padding: 1rem;">We Design Clean Responsive UI/UX</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x"><i class="fa fa-lock fa-stack-1x fa-inverse" data-bs-hover-animate="swing" style="background-color: rgb(43,85,131);margin-bottom: 2rem;border-radius: 2rem;"></i></span>
+                <h4 class="section-heading" style="color: rgb(255,255,255);">Web Security</h4>
+                <p class="text-muted" style="padding: 1rem;">We Provide Great Performance &amp; Robust Maintainable code</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase" data-aos="fade" style="color: rgb(241,241,241);padding: 1rem;font-family: Montserrat, sans-serif;">Portfolio</h2>
+                <h3 data-aos="slide-up" style="color: rgb(255,255,255);font-size: large;margin: 1.5rem;font-family: 'ABeeZee';margin-bottom: 3rem;">Over 35 Years Of Experience</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><img class="img-fluid" data-aos="fade" src="~/img/portfolio/thumbnail-2.png" style="border-top-left-radius: 2rem;border-top-right-radius: 2rem;"></a>
+                <div data-aos="fade" class="portfolio-caption" style="border-bottom-right-radius: 2rem;border-bottom-left-radius: 2rem;">
+                    <h4>Salon Swipe</h4>
+                    <p style="margin: 1rem;">Mobile Credit Card Payment&nbsp;</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"><img class="img-fluid" data-aos="fade" src="~/img/portfolio/thumbnail-3.png" style="border-top-left-radius: 2rem;border-top-right-radius: 2rem;"></a>
+                <div data-aos="fade" class="portfolio-caption" style="border-bottom-left-radius: 2rem;border-bottom-right-radius: 2rem;">
+                    <h4>Online Dictionary</h4>
+                    <p style="margin: 1rem;">Web Based Dictionary</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"><img class="img-fluid" data-aos="fade" src="~/img/portfolio/thumbnail.png" style="border-top-left-radius: 2rem;border-top-right-radius: 2rem;"></a>
+                <div data-aos="fade" class="portfolio-caption" style="border-bottom-right-radius: 2rem;border-bottom-left-radius: 2rem;">
+                    <h4>Engineering Portal</h4>
+                    <p style="margin-top: 1rem;">Engineering Information terminal</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a data-aos="fade" class="portfolio-link" data-toggle="modal" href="#portfolioModal4"><img class="img-fluid" src="~/img/portfolio/SignWriter%20Studio%20Transparent.png" style="margin-left: 1rem;"></a>
+                <div data-aos="fade" class="portfolio-caption" style="border-bottom-right-radius: 2rem;border-bottom-left-radius: 2rem;">
+                    <h4>Sign Language Studio</h4>
+                    <p style="margin-top: 1rem;color: black;">Creates Sign Language Dictionaries</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"><img class="img-fluid img-fluid" data-aos="fade" src="~/img/portfolio/adEditor.jpg" style="border-top-left-radius: 2rem;border-top-right-radius: 2rem;"></a>
+                <div data-aos="fade" class="portfolio-caption" style="border-bottom-right-radius: 2rem;border-bottom-left-radius: 2rem;">
+                    <h4 style="text-align: center;/*margin-right: 1rem;*/">Advertisement Studio</h4>
+                    <p style="margin-top: 1rem;">Web Based Graphic Design Solution</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"><img class="img-fluid" data-aos="zoom-in-up" src="~/img/portfolio/My%20Post-46.png" style="border-top-left-radius: 2rem;border-top-right-radius: 2rem;"></a>
+                <div data-aos="zoom-in-up" class="portfolio-caption" style="border-bottom-right-radius: 2rem;border-bottom-left-radius: 2rem;">
+                    <h4>We Have More</h4>
+                    <p style="margin-top: 1rem;">Visit Our UpWork Profiles</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="VisitOurProfilesInUpwork">
+    <div class="wrapper-grid">
+        <div data-aos="fade" id="glassvisitus" class="container">
+            <div class="banner-img2"></div>
+            <h1 class="VisitUsHD1" style="border-color: rgb(213,225,222);">Visit Us in Up Work</h1>
+        </div>
+    </div>
+</section>
+<section id="team" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="rounded-circle mx-auto" src="~/img/team/1.jpg">
+                    <h4 style="color: white;">Kay Garland</h4>
+                    <p class="text-muted">Lead Designer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="bounce" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="rounded-circle mx-auto" src="~/img/team/2.jpg">
+                    <h4 style="color: white;">Larry Parker</h4>
+                    <p class="text-muted">Lead Marketer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="rounded-circle mx-auto" src="~/img/team/3.jpg">
+                    <h4 style="color: white;">Diana Pertersen</h4>
+                    <p class="text-muted">Lead Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a data-bs-hover-animate="pulse" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container" id="BrandsWeWork" style="border-top-left-radius: 0rem;border-bottom-left-radius: 0rem;border-top-right-radius: 0rem;border-bottom-right-radius: 0rem;">
+        <div class="row">
+            <div class="col-sm-6 col-md-3" style="border-top-left-radius: 1rem;border-bottom-left-radius: 1rem;"><a href="#"><img class="img-fluid d-block mx-auto" data-bs-hover-animate="rubberBand" src="~/img/clients/Screen%20Shot%202021-02-02%20at%2011.29.23%20AM.png" style="filter: grayscale(100%) invert(100%);/*padding: 1rem;*//*border-top-left-radius: 1rem;*/"></a></div>
+            <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" data-bs-hover-animate="rubberBand" src="~/img/clients/Screen%20Shot%202021-02-02%20at%2011.21.49%20AM.png" style="filter: grayscale(100%) invert(100%);/*padding: 1rem;*/"></a></div>
+            <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" data-bs-hover-animate="pulse" src="~/img/clients/Screen%20Shot%202021-02-02%20at%2011.22.23%20AM.png" style="filter: grayscale(100%) invert(100%);/*padding: 1rem;*//*background-position: center;*//*background-size: cover;*/"></a></div>
+            <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" data-bs-hover-animate="jello" src="~/img/clients/Screen%20Shot%202021-02-02%20at%2011.32.53%20AM.png" style="filter: grayscale(100%) invert(100%);/*padding: 1rem;*/border-top-right-radius: 1rem;/*border-bottom-right-radius: 1rem;*/"></a></div>
+        </div>
+    </div>
+</section>
+<section id="contact" style="background-image:url('../img/map-image.png');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase section-heading">Contact Us</h2>
+                <h3 id="whiteeeeent" class="section-subheading text-muted" style="color: rgb(255,255,255);">Get a Free Quote!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contactForm" name="contactForm" novalidate="novalidate">
+                    <div class="form-row">
+                        <div class="col col-md-6">
+                            <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                            <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                            <div class="form-group"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
+                        </div>
+                        <div class="col">
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" data-bs-hover-animate="pulse" id="sendMessageButton" type="submit" style="background: #2b5583;border-style: none;">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal1">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/1-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal2">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/2-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal3">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/3-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal4">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/4-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal5">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/5-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal6">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="~/img/portfolio/6-full.jpg">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-unstyled">
+                                    <li>Date: January 2017</li>
+                                    <li>Client: Threads</li>
+                                    <li>Category: Illustration</li>
+                                </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
