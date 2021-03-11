@@ -448,6 +448,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding: 20px;
 }
 
+.profile-pics{
+    max-height: 150px;
+    max-width: 150px;
+}
+
 @media (min-width: 300px) {
     .col-12.FixPosition {
         background: rgba(0,0,0,0.41);
