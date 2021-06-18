@@ -201,8 +201,8 @@ header.masthead {
 @media (min-width: 992px) {
     #glass-container1 {
         width: 100%;
-        height: 40rem;
-        margin-top: -3rem;
+        height: 90vh;
+        margin-top: -4rem !important; 
         text-align: center;
         border-radius: 1rem;
         position: relative;
@@ -221,7 +221,7 @@ header.masthead {
 
 .wrapper-grid {
     display: grid;
-    padding-top: 10rem;
+    padding-top: 5rem;
     grid-template-columns: repeat(auto-fit,26rem);
     justify-content: center;
     grid-gap: 2rem;
@@ -242,7 +242,7 @@ header.masthead {
 
 .hdStandards {
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 9vh;
     color: rgb(5,45,118);
 }
 
@@ -252,7 +252,7 @@ header.masthead {
         width: 7rem;
         height: 7rem;
         background: initial;
-        margin-top: 60%;
+        margin-top: 40vh;
     }
 }
 
@@ -497,7 +497,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         background: url("../img/My%20Post-40.png") center / cover no-repeat;
         position: absolute;
         width: 100%;
-        height: 30rem;
+        height: 55vh;
         margin: 0;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
