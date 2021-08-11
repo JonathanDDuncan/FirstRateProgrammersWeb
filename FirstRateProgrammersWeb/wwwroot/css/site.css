@@ -87,7 +87,7 @@ body {*/
 #mainNav .navbar-brand {
     font-size: 16px;
     font-family: Montserrat, sans-serif;
-    background: url("../img/logo.svg") center / cover no-repeat;
+    /*background: url("../img/logo.png") center / cover no-repeat;*/
     color: rgba(254,197,3,0);
 }
 
